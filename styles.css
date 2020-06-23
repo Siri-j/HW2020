@@ -13,3 +13,13 @@ body {
 
     margin-top: 5em;
 } 
+.todo-editor {
+    padding: 5px 20px;
+    display: flex;
+}
+
+.todo-editor input {
+    flex-grow: 1;
+    font-size: 1.2em;
+    padding: 2px 5px;
+}
