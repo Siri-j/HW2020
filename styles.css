@@ -2,6 +2,7 @@
 body {
     display: flex;
     justify-content: center;
+    font-family: "Times New Roman","黑体";
 }
 
 .todo-panel {
@@ -12,10 +13,12 @@ body {
     box-shadow: 4px 6px 6px #888;
 
     margin-top: 5em;
+    background-color: rgb(230, 116, 116);
 } 
 .todo-editor {
     padding: 5px 20px;
     display: flex;
+    background-color: rgb(230, 116, 116);
 }
 
 .todo-editor input {
@@ -67,3 +70,24 @@ body {
 .task.done label {
     text-decoration: line-through;
 }
+.todo-items .ctrlbar > input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1.5em;
+    height: 1.5em;
+    background: url(空白星.jpg);
+    background-size: 20px;
+    margin-left: 18px;
+}
+.task.vip .ctrlbar > input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1.5em;
+    height: 1.5em;
+    background: url(蓝星.jpg);
+    background-size: 20px;
+    margin-left: 18px;
+}
+
+.task.vip > label{
+    color:rgba(17, 64, 192, 0.973);
